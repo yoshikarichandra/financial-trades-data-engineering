@@ -20,7 +20,6 @@ The goal is to process 75,000 financial transactions through a Medallion Archite
 
 ## Architecture
 
-```text
 CSV File
     ↓
 Bronze Layer
