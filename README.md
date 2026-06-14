@@ -21,13 +21,17 @@ The goal is to process 75,000 financial transactions through a Medallion Archite
 ## Architecture
 
 CSV File
-    ↓
+   │
+   ▼
 Bronze Layer
-    ↓
+   │
+   ▼
 Silver Layer
-    ↓
+   │
+   ▼
 Gold Layer
-    ↓
+   │
+   ▼
 Analytics & Dashboards
 
 ---
@@ -88,10 +92,24 @@ Bronze → Silver → Gold
 The workflow automatically executes notebooks in the correct order.
 
 ---
+## Skills Demonstrated
+
+- Data Engineering
+- ETL / ELT Design
+- PySpark Transformations
+- Delta Lake
+- SQL
+- Data Quality
+- Workflow Orchestration
+- Medallion Architecture
+- Git & GitHub
+
+---
 
 ## Project Results
 
-- 75,000 transactions processed
-- Medallion Architecture implemented
-- Delta Lake ACID validation completed
-- Automated Databricks Workflow created
+- 75,000 financial transactions processed
+- 3,644 duplicate Trade_ID detected
+- 769 negative amounts corrected
+- 1,508 null currency values isolated
+- 3-layer Medallion Architecture implemented
